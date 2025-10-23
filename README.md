@@ -37,6 +37,7 @@ faiss-cpu
 
 Azure OpenAI account with text-embedding-ada-002 and gpt-4o (or your preferred deployment).
 
+**Update Configurations**
 Environment variables in .env:
 
 AZURE_OPENAI_ENDPOINT=your_endpoint_here
