@@ -1,8 +1,8 @@
-RAG FAISS Demo
+**RAG FAISS Demo**
 
 A Retrieval-Augmented Generation (RAG) pipeline using LangChain, FAISS, and Azure OpenAI to answer questions from local documents. This project supports a FastAPI endpoint and a CLI interface for querying.
 
-Features
+**Features**
 
 Load local text documents and split them into chunks.
 
@@ -16,7 +16,7 @@ FastAPI API for programmatic access.
 
 CLI interface for quick testing.
 
-Requirements
+**Requirements**
 
 Python 3.11+
 
@@ -43,7 +43,7 @@ AZURE_OPENAI_ENDPOINT=your_endpoint_here
 AZURE_OPENAI_API_KEY=your_api_key_here
 OPENAI_API_VERSION=2025-01-01-preview
 
-Setup
+**Setup**
 
 Clone the repository:
 
@@ -67,7 +67,7 @@ Add your .env file with Azure OpenAI credentials.
 
 Place your .txt documents in DATA_DIR (default: ./data).
 
-Running the Pipeline
+**Running the Pipeline**
 1. Ingest Data
 python src/ingest_data.py
 
